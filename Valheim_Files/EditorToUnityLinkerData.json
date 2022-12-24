@@ -14,23 +14,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NamedObject",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -46,7 +32,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -62,7 +50,27 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NamedObject",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -78,39 +86,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Sprite",
-            "fullManagedTypeName": "UnityEngine.Sprite",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture2D",
-            "fullManagedTypeName": "UnityEngine.Texture2D",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -126,7 +104,45 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture2D",
+            "fullManagedTypeName": "UnityEngine.Texture2D",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -163,29 +179,10 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioManager",
-            "fullManagedTypeName": "UnityEditor.AudioManager",
-            "moduleName": "Audio",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "BuildSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "PlayerSettings",
-            "fullManagedTypeName": "UnityEditor.PlayerSettings",
-            "moduleName": "Core",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -200,7 +197,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -216,41 +215,15 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "PhysicsManager",
-            "fullManagedTypeName": "UnityEditor.PhysicsManager",
-            "moduleName": "Physics",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "TimeManager",
-            "fullManagedTypeName": "UnityEditor.TimeManager",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "InputManager",
-            "fullManagedTypeName": "UnityEditor.InputManager",
-            "moduleName": "Core",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "TagManager",
             "fullManagedTypeName": "UnityEditor.TagManager",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoManager",
-            "fullManagedTypeName": "UnityEditor.MonoManager",
             "moduleName": "Core",
             "usedInScenes": []
         },
@@ -270,8 +243,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "QualitySettings",
-            "fullManagedTypeName": "UnityEngine.QualitySettings",
+            "nativeClass": "TimeManager",
+            "fullManagedTypeName": "UnityEditor.TimeManager",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "InputManager",
+            "fullManagedTypeName": "UnityEditor.InputManager",
             "moduleName": "Core",
             "usedInScenes": []
         },
@@ -297,10 +277,31 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PhysicsManager",
+            "fullManagedTypeName": "UnityEditor.PhysicsManager",
+            "moduleName": "Physics",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoManager",
+            "fullManagedTypeName": "UnityEditor.MonoManager",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "NavMeshProjectSettings",
             "fullManagedTypeName": "",
             "moduleName": "AI",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioManager",
+            "fullManagedTypeName": "UnityEditor.AudioManager",
+            "moduleName": "Audio",
             "usedInScenes": []
         },
         {
@@ -312,19 +313,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Transform",
-            "fullManagedTypeName": "UnityEngine.Transform",
+            "nativeClass": "PlayerSettings",
+            "fullManagedTypeName": "UnityEditor.PlayerSettings",
             "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "QualitySettings",
+            "fullManagedTypeName": "UnityEngine.QualitySettings",
+            "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "BuildSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -339,12 +345,29 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Transform",
+            "fullManagedTypeName": "UnityEngine.Transform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "FlareLayer",
             "fullManagedTypeName": "UnityEngine.FlareLayer",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
                 "Assets/Scenes/main.unity"
             ]
         },
@@ -361,7 +384,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -383,7 +408,8 @@
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity"
             ]
         },
         {
@@ -394,7 +420,8 @@
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity"
             ]
         },
         {
@@ -410,39 +437,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -458,7 +455,45 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -474,7 +509,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -485,7 +522,8 @@
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity"
             ]
         },
         {
@@ -496,7 +534,8 @@
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity"
             ]
         },
         {
@@ -510,23 +549,8 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Cubemap",
-            "fullManagedTypeName": "UnityEngine.Cubemap",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RenderSettings",
-            "fullManagedTypeName": "UnityEngine.RenderSettings",
+            "nativeClass": "LightingSettings",
+            "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/loading.unity",
@@ -534,21 +558,8 @@
                 "Assets/Scenes/main.unity",
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightProbes",
-            "fullManagedTypeName": "UnityEngine.LightProbes",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -564,23 +575,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NavMeshSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "AI",
-            "usedInScenes": [
-                "Assets/Scenes/loading.unity",
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -596,22 +593,45 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimationClip",
-            "fullManagedTypeName": "UnityEngine.AnimationClip",
-            "moduleName": "Animation",
+            "nativeClass": "RenderSettings",
+            "fullManagedTypeName": "UnityEngine.RenderSettings",
+            "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/loading.unity",
                 "Assets/Scenes/start.unity",
                 "Assets/Scenes/main.unity",
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NavMeshSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/loading.unity",
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -626,7 +646,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -662,7 +684,9 @@
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -677,7 +701,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -692,7 +718,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -707,7 +735,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -722,7 +752,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -746,7 +778,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -763,16 +797,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioReverbZone",
-            "fullManagedTypeName": "UnityEngine.AudioReverbZone",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "ParticleSystem",
             "fullManagedTypeName": "UnityEngine.ParticleSystem",
             "moduleName": "ParticleSystem",
@@ -783,7 +807,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -798,7 +824,24 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemForceField",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemForceField",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -813,7 +856,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -828,7 +873,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -843,7 +890,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -858,7 +907,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -873,7 +924,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -886,7 +939,9 @@
                 "Assets/Scenes/main.unity",
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -899,7 +954,8 @@
                 "Assets/Scenes/main.unity",
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity"
             ]
         },
         {
@@ -912,7 +968,8 @@
                 "Assets/Scenes/main.unity",
                 "Assets/Scenes/locations.unity",
                 "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity"
             ]
         },
         {
@@ -922,7 +979,8 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations_mistlands.unity"
             ]
         },
         {
@@ -939,6 +997,23 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Animator",
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
@@ -949,51 +1024,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RuntimeAnimatorController",
-            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Motion",
-            "fullManagedTypeName": "UnityEngine.Motion",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Avatar",
-            "fullManagedTypeName": "UnityEngine.Avatar",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -1008,17 +1041,59 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RenderTexture",
-            "fullManagedTypeName": "UnityEngine.RenderTexture",
-            "moduleName": "Core",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Avatar",
+            "fullManagedTypeName": "UnityEngine.Avatar",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -1033,7 +1108,9 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -1048,92 +1125,33 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioFilter",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Audio",
+            "nativeClass": "ReflectionProbe",
+            "fullManagedTypeName": "UnityEngine.ReflectionProbe",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/main.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixerGroup",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerGroup",
-            "moduleName": "Audio",
+            "nativeClass": "LightProbes",
+            "fullManagedTypeName": "UnityEngine.LightProbes",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixer",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixer",
-            "moduleName": "Audio",
+            "nativeClass": "Cubemap",
+            "fullManagedTypeName": "UnityEngine.Cubemap",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
                 "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixerSnapshot",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerSnapshot",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity",
-                "Assets/Scenes/locations.unity",
-                "Assets/Scenes/rooms.unity",
-                "Assets/Scenes/locations_cp1.unity",
-                "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -1148,17 +1166,26 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ReflectionProbe",
-            "fullManagedTypeName": "UnityEngine.ReflectionProbe",
-            "moduleName": "Core",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/start.unity",
-                "Assets/Scenes/main.unity"
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
         },
         {
@@ -1173,8 +1200,120 @@
                 "Assets/Scenes/rooms.unity",
                 "Assets/Scenes/locations_cp1.unity",
                 "Assets/Scenes/locations_mountaincaves.unity",
-                "Assets/Scenes/rooms_cave.unity"
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioFilter",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixerGroup",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerGroup",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixer",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixer",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixerSnapshot",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerSnapshot",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/start.unity",
+                "Assets/Scenes/main.unity",
+                "Assets/Scenes/locations.unity",
+                "Assets/Scenes/rooms.unity",
+                "Assets/Scenes/locations_cp1.unity",
+                "Assets/Scenes/locations_mountaincaves.unity",
+                "Assets/Scenes/rooms_cave.unity",
+                "Assets/Scenes/locations_mistlands.unity",
+                "Assets/Scenes/rooms_mistlands.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioReverbZone",
+            "fullManagedTypeName": "UnityEngine.AudioReverbZone",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/main.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderTexture",
+            "fullManagedTypeName": "UnityEngine.RenderTexture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/main.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "PlayFab.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PlayFabSharedSettings",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -1739,6 +1878,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Demister",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "DepthCamera",
             "moduleName": "",
             "usedInScenes": []
@@ -1803,6 +1949,20 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "EffectFade",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EggGrow",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EggHatch",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2068,6 +2228,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "JoinCode",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "KeyHints",
             "moduleName": "",
             "usedInScenes": []
@@ -2180,7 +2347,35 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "LuredWisp",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ManageSavesMenu",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ManageSavesMenuElement",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "MapTable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MaterialVariation",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2250,6 +2445,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Mister",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "MonsterAI",
             "moduleName": "",
             "usedInScenes": []
@@ -2285,6 +2487,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "NpcTalk",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "ObjectDB",
             "moduleName": "",
             "usedInScenes": []
@@ -2307,6 +2516,13 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ParticleDecal",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ParticleMist",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2404,6 +2620,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Radiator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Ragdoll",
             "moduleName": "",
             "usedInScenes": []
@@ -2446,6 +2669,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "RandomPieceRotation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "RandomSpawn",
             "moduleName": "",
             "usedInScenes": []
@@ -2481,6 +2711,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "ResourceRoot",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Room",
             "moduleName": "",
             "usedInScenes": []
@@ -2510,6 +2747,13 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "SE_Cozy",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SE_Demister",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2593,6 +2837,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "SapCollector",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "SceneLoader",
             "moduleName": "",
             "usedInScenes": []
@@ -2601,6 +2852,13 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ScrollRectEnsureVisible",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ServerList",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2726,6 +2984,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "SpawnPrefab",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "SpawnSystem",
             "moduleName": "",
             "usedInScenes": []
@@ -2818,6 +3083,13 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Teleport",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TeleportAbility",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2929,6 +3201,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Trap",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "TreeBase",
             "moduleName": "",
             "usedInScenes": []
@@ -2943,7 +3222,35 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "TriggerSpawnAbility",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TriggerSpawner",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Turret",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Tutorial",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnifiedPopup",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -2985,6 +3292,13 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "VortexParticles",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "WaterMark",
             "moduleName": "",
             "usedInScenes": []
@@ -3013,6 +3327,20 @@
         {
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "WeakSpot",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "WeaponLoadState",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "WearNTear",
             "moduleName": "",
             "usedInScenes": []
@@ -3028,6 +3356,13 @@
             "managedAssemblyName": "assembly_valheim.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Windmill",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "assembly_valheim.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "WispSpawner",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -3095,12 +3430,6 @@
             "baseModule": "Core"
         },
         {
-            "name": "AssetDatabaseV1",
-            "module": "AssetDatabase",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
             "name": "AssetMetaData",
             "module": "Core",
             "baseName": "Object",
@@ -3116,18 +3445,6 @@
             "name": "BuiltAssetBundleInfoSet",
             "module": "BuildReportingEditor",
             "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "Derived",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "SubDerived",
-            "module": "Core",
-            "baseName": "Derived",
             "baseModule": "Core"
         },
         {
@@ -3163,6 +3480,12 @@
         {
             "name": "Animator",
             "module": "Animation",
+            "baseName": "Behaviour",
+            "baseModule": "Core"
+        },
+        {
+            "name": "ArticulationBody",
+            "module": "Physics",
             "baseName": "Behaviour",
             "baseModule": "Core"
         },
@@ -3671,12 +3994,6 @@
             "baseModule": "Physics"
         },
         {
-            "name": "FakeComponent",
-            "module": "Core",
-            "baseName": "Component",
-            "baseModule": "Core"
-        },
-        {
             "name": "Joint",
             "module": "Physics",
             "baseName": "Component",
@@ -3758,12 +4075,6 @@
             "name": "LineRenderer",
             "module": "Core",
             "baseName": "Renderer",
-            "baseModule": "Core"
-        },
-        {
-            "name": "RendererFake",
-            "module": "Core",
-            "baseName": "LineRenderer",
             "baseModule": "Core"
         },
         {
@@ -3853,12 +4164,6 @@
         {
             "name": "Tree",
             "module": "Terrain",
-            "baseName": "Component",
-            "baseModule": "Core"
-        },
-        {
-            "name": "WorldAnchor",
-            "module": "VR",
             "baseName": "Component",
             "baseModule": "Core"
         },
@@ -3954,7 +4259,7 @@
         },
         {
             "name": "ComputeShaderImporter",
-            "module": "Core",
+            "module": "Editor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -4020,7 +4325,7 @@
         },
         {
             "name": "PackageManifestImporter",
-            "module": "Editor",
+            "module": "PackageManagerUI",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -4032,6 +4337,12 @@
         },
         {
             "name": "PrefabImporter",
+            "module": "Editor",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
+            "name": "PreviewImporter",
             "module": "Editor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
@@ -4049,6 +4360,12 @@
             "baseModule": "Editor"
         },
         {
+            "name": "RuleSetFileImporter",
+            "module": "Core",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
             "name": "ScriptedImporter",
             "module": "Editor",
             "baseName": "AssetImporter",
@@ -4062,6 +4379,12 @@
         },
         {
             "name": "SpeedTreeImporter",
+            "module": "Editor",
+            "baseName": "AssetImporter",
+            "baseModule": "Editor"
+        },
+        {
+            "name": "SpriteAtlasImporter",
             "module": "Editor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
@@ -4265,6 +4588,12 @@
             "baseModule": "Core"
         },
         {
+            "name": "LightingSettings",
+            "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
             "name": "LightmapParameters",
             "module": "Editor",
             "baseName": "NamedObject",
@@ -4421,6 +4750,12 @@
             "baseModule": "Core"
         },
         {
+            "name": "SpriteAtlasAsset",
+            "module": "Editor",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
             "name": "SubstanceArchive",
             "module": "Substance",
             "baseName": "NamedObject",
@@ -4470,7 +4805,13 @@
         },
         {
             "name": "PackageManifest",
-            "module": "Editor",
+            "module": "PackageManagerUI",
+            "baseName": "TextAsset",
+            "baseModule": "Core"
+        },
+        {
+            "name": "RuleSetFileAsset",
+            "module": "Core",
             "baseName": "TextAsset",
             "baseModule": "Core"
         },
@@ -4621,12 +4962,6 @@
         {
             "name": "EditorUserSettings",
             "module": "Editor",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "EmptyObject",
-            "module": "Core",
             "baseName": "Object",
             "baseModule": "Core"
         },
@@ -4805,12 +5140,6 @@
             "baseModule": "Core"
         },
         {
-            "name": "NativeObjectType",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
             "name": "PackedAssets",
             "module": "Editor",
             "baseName": "Object",
@@ -4847,32 +5176,14 @@
             "baseModule": "Core"
         },
         {
-            "name": "PropertyModificationsTargetTestObject",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
             "name": "SceneVisibilityState",
             "module": "Core",
             "baseName": "Object",
             "baseModule": "Core"
         },
         {
-            "name": "SerializableManagedHost",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "SerializableManagedRefTestClass",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "SiblingDerived",
-            "module": "Core",
+            "name": "ScenesUsingAssets",
+            "module": "Editor",
             "baseName": "Object",
             "baseModule": "Core"
         },
@@ -4883,44 +5194,14 @@
             "baseModule": "Core"
         },
         {
-            "name": "TestObjectVectorPairStringBool",
-            "module": "Core",
+            "name": "VersionControlSettings",
+            "module": "Editor",
             "baseName": "Object",
             "baseModule": "Core"
         },
         {
-            "name": "TestObjectWithSerializedAnimationCurve",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "TestObjectWithSerializedArray",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "TestObjectWithSerializedMapStringBool",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "TestObjectWithSerializedMapStringNonAlignedStruct",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "TestObjectWithSpecialLayoutOne",
-            "module": "Core",
-            "baseName": "Object",
-            "baseModule": "Core"
-        },
-        {
-            "name": "TestObjectWithSpecialLayoutTwo",
-            "module": "Core",
+            "name": "VideoBuildInfo",
+            "module": "BuildReportingEditor",
             "baseName": "Object",
             "baseModule": "Core"
         },
