@@ -71,7 +71,7 @@ namespace ValheimTooler.Core
 
             s_itemGiverScrollPosition = GUILayout.BeginScrollView(s_itemGiverScrollPosition, GUI.skin.box, GUILayout.Height(350));
             {
-                s_selectedItem = GUILayout.SelectionGrid(s_selectedItem, s_itemsGUIFiltered.ToArray(), 4, InterfaceMaker.CustomSkin.GetStyle("flatButton"));
+                s_selectedItem = GUILayout.SelectionGrid(s_selectedItem, s_itemsGUIFiltered.ToArray(), 4, InterfaceMaker.CustomSkin.GetStyle("flatButton"), GUILayout.Width(350), GUILayout.Height(50*(s_itemsGUIFiltered.Count / 4)));
             }
             GUILayout.EndScrollView();
 
