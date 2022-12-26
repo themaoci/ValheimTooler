@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
@@ -19,6 +20,11 @@ namespace ValheimTooler
         public static bool s_showDroppedESP = false;
         public static bool s_showDepositESP = false;
         public static bool s_showPickableESP = false;
+        public static bool s_showESPBoxes = false;
+        public static bool s_enableInstantCraft = false;
+        public static bool s_enableInfinityStamina = false;
+        public static bool s_enableGodmode = false;
+        public static bool s_enableEdgeOfWorldKill = false;
 
         private WindowToolbar _windowToolbar = WindowToolbar.PLAYER;
         private readonly string[] _toolbarChoices = {
@@ -29,8 +35,17 @@ namespace ValheimTooler
 
         private string _version;
 
+        public static bool AntiCheatLocated = false;
+        internal static bool s_enableAutopinMap;
+        internal static bool s_enableNoWeightLimit;
+        internal static bool s_enableAlwaysTeleportAllowing;
+        internal static bool s_enableSpeedHack;
+        internal static float v_valueSpeedHack;
+
         public void Start()
         {
+            LocateAnticheat();
+
             _valheimToolerRect = new Rect(5, 5, 800, 300);
 
             PlayerHacks.Start();
@@ -40,6 +55,18 @@ namespace ValheimTooler
             ESP.Start();
 
             _version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        }
+
+        public void LocateAnticheat()
+        {
+            var list = System.AppDomain.CurrentDomain.GetAssemblies();
+            foreach (var assembly in list)
+            {
+                if (assembly.FullName.ToLower().Contains("anticheat") || assembly.FullName.ToLower().Contains("azumatt"))
+                {
+                    AntiCheatLocated = true;
+                }
+            }
         }
         public void Update()
         {

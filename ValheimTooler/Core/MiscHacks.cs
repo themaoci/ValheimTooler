@@ -156,6 +156,11 @@ namespace ValheimTooler.Core
                 {
                     EntryPoint.s_showPickableESP = !EntryPoint.s_showPickableESP;
                 }
+                if (GUILayout.Button(VTLocalization.instance.Localize("ESP Boxes : " + (EntryPoint.s_showPickableESP ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                {
+                    EntryPoint.s_showESPBoxes = !EntryPoint.s_showESPBoxes;
+                }
+                
             }
             GUILayout.EndVertical();
         }

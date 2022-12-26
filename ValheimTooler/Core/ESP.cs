@@ -19,7 +19,7 @@ namespace ValheimTooler.Core
         private static readonly List<MineRock5> s_mineRock5s = new List<MineRock5>();
 
         private static float s_updateTimer = 0f;
-        private static readonly float s_updateTimerInterval = 1.5f;
+        private static readonly float s_updateTimerInterval = 2f;
 
         static ESP()
         {
@@ -179,26 +179,28 @@ namespace ValheimTooler.Core
                         if (vector.z > -1)
                         {
                             float a = Math.Abs(main.WorldToScreenPoint(character.GetEyePoint()).y - vector.y);
-                            var distance = (int)Vector3.Distance(main.transform.position, character.transform.position);
 
                             if (character.IsPlayer() && EntryPoint.s_showPlayerESP)
                             {
-                                string espLabel = ((Player)character).GetPlayerName() + $" [{distance}]";
-                                Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_playerBoxTexture, 1f);
+                                string espLabel = ((Player)character).GetPlayerName() + $" [{(int)vector.z}]";
+                                if(EntryPoint.s_showESPBoxes)
+                                    Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_playerBoxTexture, 1f);
                                 labelSkin.normal.textColor = Color.red;
                                 GUI.Label(new Rect((int)vector.x - 10, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                             }
                             else if (!character.IsPlayer() && !character.IsTamed() && EntryPoint.s_showMonsterESP)
                             {
-                                string espLabel = character.GetHoverName() + $" [{distance}]";
-                                Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_monsterAndOthersBoxTexture, 1f);
+                                string espLabel = character.GetHoverName() + $" [{(int)vector.z}]";
+                                if (EntryPoint.s_showESPBoxes)
+                                    Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_monsterAndOthersBoxTexture, 1f);
                                 labelSkin.normal.textColor = Color.magenta;
                                 GUI.Label(new Rect((int)vector.x - 10, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                             }
                             else if (!character.IsPlayer() && character.IsTamed() && EntryPoint.s_showMonsterESP)
                             {
-                                string espLabel = character.GetHoverName() + $" [{distance}]";
-                                Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_tamedMonsterBoxTexture, 1f);
+                                string espLabel = character.GetHoverName() + $" [{(int)vector.z}]";
+                                if (EntryPoint.s_showESPBoxes)
+                                    Box(vector.x, Screen.height - vector.y, a * 0.65f, a, s_tamedMonsterBoxTexture, 1f);
                                 labelSkin.normal.textColor = Color.yellow;
                                 GUI.Label(new Rect((int)vector.x - 10, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                             }
@@ -219,8 +221,7 @@ namespace ValheimTooler.Core
 
                         if (vector.z > -1)
                         {
-                            var distance = (int)Vector3.Distance(main.transform.position, pickable.transform.position);
-                            string espLabel = $"{Localization.instance.Localize(pickable.GetHoverName())} [{distance}]";
+                            string espLabel = $"{Localization.instance.Localize(pickable.GetHoverName())} [{(int)vector.z}]";
                             
                             GUI.Label(new Rect((int)vector.x - 5, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                         }
@@ -235,8 +236,7 @@ namespace ValheimTooler.Core
 
                         if (vector.z > -1)
                         {
-                            var distance = (int)Vector3.Distance(main.transform.position, pickableItem.transform.position);
-                            string espLabel = $"{Localization.instance.Localize(pickableItem.GetHoverName())} [{distance}]";
+                            string espLabel = $"{Localization.instance.Localize(pickableItem.GetHoverName())} [{(int)vector.z}]";
 
                             GUI.Label(new Rect((int)vector.x - 5, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                         }
@@ -256,8 +256,7 @@ namespace ValheimTooler.Core
 
                         if (vector.z > -1)
                         {
-                            var distance = (int)Vector3.Distance(main.transform.position, itemDrop.transform.position);
-                            string espLabel = $"{Localization.instance.Localize(itemDrop.GetHoverName())} [{distance}]";
+                            string espLabel = $"{Localization.instance.Localize(itemDrop.GetHoverName())} [{(int)vector.z}]";
 
                             GUI.Label(new Rect((int)vector.x - 5, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                         }
@@ -277,8 +276,7 @@ namespace ValheimTooler.Core
 
                         if (vector.z > -1)
                         {
-                            var distance = (int)Vector3.Distance(main.transform.position, mineRock5.transform.position);
-                            string espLabel = $"{mineRock5.GetHoverText()} [{distance}]";
+                            string espLabel = $"{mineRock5.GetHoverText()} [{(int)vector.z}]";
 
                             GUI.Label(new Rect((int)vector.x - 5, Screen.height - vector.y - 5, 150, 40), espLabel, labelSkin);
                         }

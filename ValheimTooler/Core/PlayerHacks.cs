@@ -13,6 +13,7 @@ namespace ValheimTooler.Core
         private static bool s_isInfiniteStaminaMe = false;
         private static bool s_isInfiniteStaminaOthers = false;
         private static bool s_isNoStaminaOthers = false;
+        private static string s_teleportPositionString;
         private static int s_teleportTargetIdx = -1;
         private static int s_healTargetIdx = -1;
         private static string s_guardianPowerIdx = "";
@@ -110,51 +111,105 @@ namespace ValheimTooler.Core
                 GUILayout.BeginVertical(VTLocalization.instance.Localize("$vt_player_general_title"), GUI.skin.box, GUILayout.ExpandWidth(false));
                 {
                     GUILayout.Space(EntryPoint.s_boxSpacing);
-
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_god_mode : " + (Player.m_localPlayer.VTInGodMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (!EntryPoint.AntiCheatLocated)
                     {
-                        Player.m_localPlayer.VTSetGodMode(!Player.m_localPlayer.VTInGodMode());
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_god_mode : " + (Player.m_localPlayer.VTInGodMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            Player.m_localPlayer.VTSetGodMode(!Player.m_localPlayer.VTInGodMode());
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_inf_stamina_me : " + (s_isInfiniteStaminaMe ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            s_isInfiniteStaminaMe = !s_isInfiniteStaminaMe;
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_inf_stamina_others : " + (s_isInfiniteStaminaOthers ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            s_isInfiniteStaminaOthers = !s_isInfiniteStaminaOthers;
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_no_stamina : " + (s_isNoStaminaOthers ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            s_isNoStaminaOthers = !s_isNoStaminaOthers;
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_fly_mode : " + (Player.m_localPlayer.VTInFlyMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            Player.m_localPlayer.VTSetFlyMode(!Player.m_localPlayer.VTInFlyMode());
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_ghost_mode : " + (Player.m_localPlayer.VTInGhostMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            Player.m_localPlayer.VTSetGhostMode(!Player.m_localPlayer.VTInGhostMode());
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_nop_lacement_cost : " + (Player.m_localPlayer.VTIsNoPlacementCost() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            Player.m_localPlayer.VTSetNoPlacementCost(!Player.m_localPlayer.VTIsNoPlacementCost());
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_explore_minimap")))
+                        {
+                            Minimap.instance.VTExploreAll();
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_reset_minimap")))
+                        {
+                            Minimap.instance.VTReset();
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_tame_creatures")))
+                        {
+                            Player.m_localPlayer.VTTameNearbyCreatures();
+                        }
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_infinite_weight : " + (Player.m_localPlayer.VTIsInventoryInfiniteWeight() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                        {
+                            Player.m_localPlayer.VTInventoryInfiniteWeight(!Player.m_localPlayer.VTIsInventoryInfiniteWeight());
+                        }
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_inf_stamina_me : " + (s_isInfiniteStaminaMe ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    else
                     {
-                        s_isInfiniteStaminaMe = !s_isInfiniteStaminaMe;
+                        GUILayout.Label("Detected options are disabled");
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_inf_stamina_others : " + (s_isInfiniteStaminaOthers ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (GUILayout.Button($"Godmode (hidden) {((EntryPoint.s_enableGodmode)?"ON":"OFF")}"))
                     {
-                        s_isInfiniteStaminaOthers = !s_isInfiniteStaminaOthers;
+                        EntryPoint.s_enableGodmode = !EntryPoint.s_enableGodmode;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_no_stamina : " + (s_isNoStaminaOthers ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (GUILayout.Button($"InfinityStamina (hidden) {((EntryPoint.s_enableInfinityStamina) ?"ON":"OFF")}"))
                     {
-                        s_isNoStaminaOthers = !s_isNoStaminaOthers;
+                        EntryPoint.s_enableInfinityStamina = !EntryPoint.s_enableInfinityStamina;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_fly_mode : " + (Player.m_localPlayer.VTInFlyMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (GUILayout.Button($"InstantCraft (hidden) {((EntryPoint.s_enableInstantCraft) ?"ON":"OFF")}"))
                     {
-                        Player.m_localPlayer.VTSetFlyMode(!Player.m_localPlayer.VTInFlyMode());
+                        EntryPoint.s_enableInstantCraft = !EntryPoint.s_enableInstantCraft;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_ghost_mode : " + (Player.m_localPlayer.VTInGhostMode() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (GUILayout.Button($"EdgeOfWorldKill (hidden) {((EntryPoint.s_enableEdgeOfWorldKill) ? "ON" : "OFF")}"))
                     {
-                        Player.m_localPlayer.VTSetGhostMode(!Player.m_localPlayer.VTInGhostMode());
+                        EntryPoint.s_enableEdgeOfWorldKill = !EntryPoint.s_enableEdgeOfWorldKill;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_nop_lacement_cost : " + (Player.m_localPlayer.VTIsNoPlacementCost() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    if (GUILayout.Button($"NoCap (hidden) {((EntryPoint.s_enableNoWeightLimit) ? "ON" : "OFF")}"))
                     {
-                        Player.m_localPlayer.VTSetNoPlacementCost(!Player.m_localPlayer.VTIsNoPlacementCost());
+                        EntryPoint.s_enableNoWeightLimit = !EntryPoint.s_enableNoWeightLimit;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_explore_minimap")))
+                    if (GUILayout.Button($"AllowTeleporting (hidden) {((EntryPoint.s_enableAlwaysTeleportAllowing) ? "ON" : "OFF")}"))
                     {
-                        Minimap.instance.VTExploreAll();
+                        EntryPoint.s_enableAlwaysTeleportAllowing = !EntryPoint.s_enableAlwaysTeleportAllowing;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_reset_minimap")))
+                    if (GUILayout.Button($"AutoPinMap {((EntryPoint.s_enableAutopinMap) ? "ON" : "OFF")}"))
                     {
-                        Minimap.instance.VTReset();
+                        EntryPoint.s_enableAutopinMap = !EntryPoint.s_enableAutopinMap;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_tame_creatures")))
+                    if (GUILayout.Button($"SpeedHack({Mathf.Round(EntryPoint.v_valueSpeedHack)}) {((EntryPoint.s_enableSpeedHack) ? "ON" : "OFF")}"))
                     {
-                        Player.m_localPlayer.VTTameNearbyCreatures();
+                        EntryPoint.s_enableSpeedHack = !EntryPoint.s_enableSpeedHack;
                     }
-                    if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_infinite_weight : " + (Player.m_localPlayer.VTIsInventoryInfiniteWeight() ? VTLocalization.s_cheatOn : VTLocalization.s_cheatOff))))
+                    EntryPoint.v_valueSpeedHack = GUILayout.HorizontalSlider(EntryPoint.v_valueSpeedHack, 1f, 50f);
+                    if (GUILayout.Button("Get All Recipes (can crash)"))
                     {
-                        Player.m_localPlayer.VTInventoryInfiniteWeight(!Player.m_localPlayer.VTIsInventoryInfiniteWeight());
+                        foreach (var recipe in ObjectDB.instance.m_recipes)
+                        {
+                            if (recipe.m_enabled)
+                            {
+                                if (recipe.m_item != null && recipe.m_item.m_itemData != null && recipe.m_item.m_itemData.m_shared != null)
+                                {
+                                    Debug.Log($"{recipe.m_item.GetHoverName()} || {recipe.m_craftingStation.GetHoverName()}");
+                                    Player.m_localPlayer.AddKnownRecipe(recipe);
+                                }
+                            }
+                        }
                     }
+                    
                 }
                 GUILayout.EndVertical();
 
@@ -176,6 +231,42 @@ namespace ValheimTooler.Core
                             if (s_netPlayers != null && s_teleportTargetIdx < s_netPlayers.Count && s_teleportTargetIdx >= 0)
                             {
                                 Player.m_localPlayer.VTTeleportTo(s_netPlayers[s_teleportTargetIdx]);
+                            }
+                        }
+                    }
+                    GUILayout.EndVertical();
+
+                    GUILayout.BeginVertical(VTLocalization.instance.Localize("$vt_player_teleport_title"), GUI.skin.box, GUILayout.ExpandWidth(false));
+                    {
+                        GUILayout.Space(EntryPoint.s_boxSpacing);
+                        GUILayout.BeginHorizontal();
+                        {
+                            GUILayout.Label(VTLocalization.instance.Localize("$vt_player_teleport_player :"), GUILayout.ExpandWidth(false));
+                            s_teleportPositionString = GUILayout.TextField(s_teleportPositionString);
+                        }
+                        GUILayout.EndHorizontal();
+
+                        if (GUILayout.Button(VTLocalization.instance.Localize("$vt_player_teleport_button")))
+                        {
+                            {
+                                var pos = s_teleportPositionString.Split(',');
+                                if (pos.Length == 3)
+                                {
+                                    float x = float.MaxValue;
+                                    float y = float.MaxValue;
+                                    float z = float.MaxValue;
+                                    try
+                                    {
+                                        x = int.Parse(pos[0]);
+                                        y = int.Parse(pos[1]);
+                                        z = int.Parse(pos[2]);
+                                    }
+                                    catch { }
+                                    if (x != float.MaxValue && y != float.MaxValue && z != float.MaxValue)
+                                    {
+                                        Player.m_localPlayer.TeleportTo(new Vector3(int.Parse(pos[0]), int.Parse(pos[1]), int.Parse(pos[2])), Player.m_localPlayer.transform.rotation, true);
+                                    }
+                                }
                             }
                         }
                     }
