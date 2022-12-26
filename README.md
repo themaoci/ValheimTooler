@@ -32,6 +32,10 @@
   <a href="#special-mentions-and-credits">Special mentions and credits</a>
 </p>
 
+## Update by Maoci
+
+added some patching functions that are preety much undetected in any easy way. Hope you enjoy.
+
 ## About
 
 ValheimTooler is a free software that allows you to cheat on the Valheim game via a multitude of options offered. This project is purely for educational purposes, I am not responsible for the use you make of it. Be reasonable some features are particularly game breaker.
